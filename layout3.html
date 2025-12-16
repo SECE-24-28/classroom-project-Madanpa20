@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout3</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing:border-box;
+            font-family:arial;
+            }
+        #logodiv{
+            width:100%;
+            background-color:lightgrey;
+            min-height:40px;
+            line-height:40px;
+            padding-left:20px;
+            margin-bottom:10px;
+            }
+       
+        #parent{
+width:100%;
+min-height:40px;
+display:flex;
+gap:30px;
+}
+#sidediv{
+width:30%;
+background-color:white;
+min-height:10px;
+text-align:center;
+line-height:100px;
+}
+
+#bodyareadiv{
+width:70%;
+background-color:lightgrey;
+min-height:10px;
+text-align:center;
+line-height:100px;
+
+}
+#white{
+    width:100%;
+    min-height:100px;
+    display:flex;
+    gap:30px;
+    margin-top:20px; 
+}
+
+#sidediv{
+width:30%;
+background-color:white;
+min-height:100px;
+text-align:center;
+line-height:100px;
+}
+#body{
+width:235%;
+background-color:lightgrey;
+min-height:400px;
+text-align:center;
+line-height:100px;
+padding-top: 100px;
+
+}
+#footerdiv{
+    width:100%;
+    background-color:lightgrey;
+    min-height:40px;   
+    line-height:40px;  
+    text-align:center;
+    margin-top:10px;
+}
+
+ #maindiv{
+            width:80%;
+            margin:auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="maindiv">
+    <div id="logodiv">Logo</div>
+
+    <div id="parent">
+        <div id="sidediv">Side Bar/Navigation</div>
+        <div id="bodyareadiv">Header/Banner</div>
+    </div>
+
+    <div id="white">
+        <div id="white"></div>
+        <div id="body">Body Area</div>
+    </div>
+    <div id="footerdiv">Footer</div>
+
+</div>
+
+    
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebLayout2</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial;
+        }
+
+        
+        #maindiv{
+            width:60%;
+            margin:auto;
+        }
+
+        #header{   
+            width:100%;
+            display:flex;
+            
+            margin-bottom:10px;
+        }
+
+        #logodiv, #navi{
+            flex:1;
+            background-color:lightgrey;
+            min-height:80px;
+            line-height:80px;
+            font-weight:bold;
+            text-align:center;
+        }
+
+       
+        #banner{
+            width:100%;
+            background-color:lightgray;
+            min-height:120px;
+            line-height:120px;
+            margin-bottom:10px;
+            text-align:center;
+        }
+
+        #intro{
+            width:100%;
+            background-color:lightgray;
+            min-height:100px;
+            line-height:100px;
+            margin-bottom:10px;
+            text-align:center;
+        }
+
+        
+        #parent{
+            width:100%;
+            display:flex;
+            gap:10px;
+            margin-bottom:10px;
+        }
+
+        #box1, #box2, #box3{
+            flex:1;
+            background-color:lightgray;
+            min-height:400px;
+            line-height:400px;
+            text-align:center;
+            font-size:18px;
+            font-weight:bold;
+        }
+
+        
+        #footer{
+            width:100%;
+            background-color:lightgrey;
+            min-height:50px;
+            line-height:50px;
+            text-align:center;
+            font-weight:bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="maindiv">
+
+        <div id="header">
+            <div id="logodiv">Logo</div>
+            <div id="navi">Navigation</div>
+        </div>
+
+        <div id="banner">Header / Banner</div>
+
+        <div id="intro">Intro Text Area</div>
+
+        <div id="parent">
+            <div id="box1">Box 1</div>
+            <div id="box2">Box 2</div>
+            <div id="box3">Box 3</div>
+        </div>
+
+        <div id="footer">Footer</div>
+
+    </div>
+
+</body>
+</html>
